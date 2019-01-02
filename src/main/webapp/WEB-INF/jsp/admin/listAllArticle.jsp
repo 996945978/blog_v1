@@ -32,7 +32,7 @@
 						<tr>
 							<td>${c.id }</td>
 							<td>${c.title }</td>
-							<td><a href="admin_article_listByCategory?cid=${c.category.id}">${c.category.name}</a></td>
+							<%--<td><a href="admin_article_listByCategory?cid=${c.category.id}">${c.category.name}</a></td>--%>
 							<td><a href="admin_article_edit?pid=${c.id}"><i class="glyphicon glyphicon-th-list"></i></a></td>
 							
 							<td><a deleteLink="true" href="admin_article_delete?id=${c.id}"><i class="glyphicon glyphicon-remove"></i></a></td>
